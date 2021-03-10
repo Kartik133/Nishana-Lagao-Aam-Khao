@@ -22,7 +22,7 @@ class mango{
 		rotate(this.body.angle)
 		fill(255,0,255)
 		imageMode(CENTER);
-		ellipseMode(CENTER);
+		ellipseMode(RADIUS);
 		image(this.image, 0,0,this.r*2, this.r*2);
 		pop();
     }
